@@ -1,4 +1,4 @@
-/* common css */
+/***************************** common css *****************************/
 * {
   margin: 0;
   padding: 0;
@@ -10,10 +10,17 @@ button {
   border: none;
   background: none;
 }
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
 li,
 a {
   list-style: none;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 h1,
 h2,
@@ -84,7 +91,7 @@ h6 {
   border-radius: 50px;
   padding: 16px 42px;
 }
-/* css navbar design */
+/***************************** css navbar design *****************************/
 .nav-link {
   padding-right: 34px !important;
   color: #a3a4a7;
@@ -108,7 +115,7 @@ h6 {
 .active {
   color: #000;
 }
-/* banner section start */
+/***************************** banner section start *****************************/
 .banner__section {
   padding-top: 150px;
   width: 607.53px;
@@ -125,7 +132,7 @@ h6 {
   padding-bottom: 37px;
 }
 
-/* banner section css :start */
+/***************************** banner section css :start *****************************/
 .relative {
   position: relative;
   width: 100%;
@@ -179,7 +186,7 @@ h6 {
   height: auto;
 }
 
-/* work section css start */
+/***************************** work section css start *****************************/
 .work__section {
   padding-top: 80px;
   padding-bottom: 100px;
@@ -231,7 +238,7 @@ h6 {
   box-sizing: border-box;
 }
 
-/* manager title css  */
+/***************************** manager title css  *****************************/
 .manager {
   padding: 45px 0;
   background: #fafcfe;
@@ -258,7 +265,7 @@ h6 {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-/* .defferent section css */
+/***************************** .defferent section css *****************************/
 .defferent {
   padding-top: 85px;
 }
@@ -311,7 +318,7 @@ h6 {
 .pt-10 {
   padding-top: 120px !important;
 }
-/* bonus section :start */
+/**************************** bonus section :start *****************************/
 .bonus {
   padding-top: 120px;
   padding-bottom: 80px;
@@ -354,4 +361,36 @@ h6 {
 .bonus_g_img img {
   width: 100%;
   height: 100%;
+}
+/***************** app download section css start  *****************/
+.app__download {
+  padding-top: 120px;
+}
+.app__info {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 69px;
+  padding-bottom: 83px;
+  border: 1px solid #9cdce7;
+  background: #9cdce77e;
+  border-radius: 32px;
+}
+.app__info p {
+  width: 679px;
+  padding-top: 16px;
+  padding-bottom: 48px;
+  text-align: center;
+  margin: auto;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #a3a4a7;
+}
+/******************* footer section css start *******************/
+footer {
+  margin-top: 80px;
+  padding: 40px 0;
+  background: #12141d;
 }
